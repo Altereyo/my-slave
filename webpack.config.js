@@ -5,7 +5,7 @@ module.exports = (env, argv) => ({
     entry: './src/index.js',
     mode: 'production',
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'build'),
         filename: 'index.js',
     },
     devtool: argv.mode === 'development' ? 'eval-cheap-module-source-map' : undefined,
