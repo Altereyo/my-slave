@@ -1,10 +1,6 @@
-import React, { useState } from "react";
-import { Route, Router, Text, ButtonGroup, Button, useText, Image, Notification, useRouter } from '@urban-bot/core';
-import fs from "fs";
-import logo from "./assets/logo.png";
+import React from "react";
+import { Route, Router, Text } from '@urban-bot/core';
 import { Add, Help, Home, Test } from './routes';
-
-const file = fs.readFileSync(logo);
 
 export function App() {
   return (
